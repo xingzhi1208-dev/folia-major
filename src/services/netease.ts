@@ -29,6 +29,11 @@ const isElectronRuntime = () =>
   Boolean(getElectronBridge() && typeof getElectronBridge()?.getNeteasePort === 'function');
 
 const getConfiguredApiBase = () => {
+  // 硬编码网易云API地址，跳过环境变量读取
+  return "https://wyy-three-xi.vercel.app";
+};
+
+const getConfiguredApiBase = () => {
   const viteEnv = typeof import.meta !== 'undefined' ? (import.meta as any).env : undefined;
   if (viteEnv && typeof viteEnv.VITE_NETEASE_API_BASE === 'string' && viteEnv.VITE_NETEASE_API_BASE) {
     return viteEnv.VITE_NETEASE_API_BASE;
