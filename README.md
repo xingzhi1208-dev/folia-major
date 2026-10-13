@@ -215,7 +215,7 @@ Folia 会读取音频文件元数据、同目录歌词和封面，并可通过�
 
 ## 致谢
 
-特别感谢以下项目和资源：
+特别感谢以下项目和资源：      
 
 - [chenmozhijin/LDDC](https://github.com/chenmozhijin/LDDC)
 - [NeteaseCloudMusicApiEnhanced](https://github.com/NeteaseCloudMusicApiEnhanced/api-enhanced)
@@ -229,3 +229,5 @@ Folia 会读取音频文件元数据、同目录歌词和封面，并可通过�
 ## 许可证
 
 本项目基于 `AGPL-3.0` 许可证开源。
+
+ rebuild env     
